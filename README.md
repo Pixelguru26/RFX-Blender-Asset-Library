@@ -2,7 +2,9 @@
  A fully open source modeling, geonodes, and shader library for Blender!
  Designed with an emphasis on science fiction and hard surface modeling, but contains a diverse range of essential tools. Designed for use with Blender 4.0 and the newly-added asset library feature.
 
- All assets are free to use, modify, and redistribute as you please. This toolkit is intended to provide a standard universal toolkit for all creators, regardless of background.
+ All assets are free to use, modify, and redistribute as you please. This toolkit is intended to provide a standard universal toolkit for all creators, regardless of background. Suggestions are more than welcome!
+
+ Asset contributions are also accepted with the only caveat that submitting them grants permission to all users of this library now and in the future to do as they please with them, in the spirit of open collaboration. Attribution will be provided in this readme.
 
 Highlights include:
 - Circular array modifier (see "Simple Angular Array")
