@@ -7,9 +7,11 @@
 VERSION 1
 
 c3f2a9a9-e4ee-493f-8314-8ca00d0a5f2d:Materials:Materials
+68dfafe2-7ea6-41b1-91b9-a3ff390962c7:Materials/SF:Materials-SF
 8f3b4404-613d-4180-ac52-826448deae5d:Meshes:Meshes
 4972b17f-3edb-4ca3-9b60-f1b68f75e098:Meshes/Basic:Meshes-Basic
 e52f4510-ae22-43bd-aa67-62fc237bdf27:Meshes/Greebles:Meshes-Greebles
+9ebc2b6d-6589-42b4-b480-f71083d5054a:Meshes/Greebles/Fasteners:Meshes-Greebles-Fasteners
 33d39106-15fe-40ca-bf26-9f272cfe7bb8:Meshes/Greebles/Symbols:Meshes-Greebles-Symbols
 d4f4a918-915f-4c98-94e7-17aa15a14a70:Meshes/Ninth Desert Dude:Meshes-Ninth Desert Dude
 6a2432b7-a695-43c3-871e-c2b5494f127c:Nodes:Nodes
@@ -17,4 +19,8 @@ a1bbf154-fc5e-4763-8a14-6fa688d82f8c:Nodes/Easing Nodes:Nodes-Easing Nodes
 5753e95c-3f9f-47f3-b1be-23cc6dacb1c4:Nodes/Easing Nodes/Geometry:Nodes-Easing Nodes-Geometry
 01dc7c10-1ff4-4c58-b036-ce4468b5e91f:Nodes/Easing Nodes/Shading:Nodes-Easing Nodes-Shading
 978e48fb-72d2-4149-97f5-c7a0152593ae:Nodes/Geometry:Nodes-Geometry
+945a193c-05c9-46a8-9c10-0ba902d6f468:Nodes/Geometry/Geonode Utils:Nodes-Geometry-Geonode Utils
+b8d951f6-7603-4d3f-a00d-9cc228f85449:Nodes/Geometry/Math Utils:Nodes-Geometry-Math Utils
+e285b353-833e-4a5c-a2ea-d5d3ed23d9da:Nodes/Geometry/Modifiers:Nodes-Geometry-Modifiers
+79d4e66a-cbe6-4e6a-9e7b-dd359156acbd:Nodes/Geometry/Primitives:Nodes-Geometry-Primitives
 cc1a18bf-a814-4fb7-b00f-ffad76cbb858:Nodes/Shading:Nodes-Shading
