@@ -7,6 +7,7 @@
  Asset contributions are also accepted with the only caveat that submitting them grants permission to all users of this library now and in the future to do as they please with them, in the spirit of open collaboration. Attribution will be provided in this readme.
 
 Highlights include:
+- Tileable, customizable Voronoi texture
 - Circular array modifier (see "Simple Angular Array")
 - Inset Faces geometry node implementation
 - Adjustable panels, bars, and greebles
@@ -59,7 +60,7 @@ Highlights include:
 				- Instance Along Curve
 					> Instantiates objects onto a curve facing along the tangent.
 				- Pinwheel
-					> Extremely powerful modifier which transforms geometry to conform to a curve and arrays it around a circle.
+					> Transforms geometry to conform to a curve and arrays it around a circle.
 					> Intended usage: construct a section of a wheel/other round object with intended result pattern, subdivide, and apply modifier.
 					- Lateral index: axis transformed into a curve. Anything aligned along this axis will end up at the same radius.
 					- Radial index: axis defining radius. Anything aligned along this axis will end up at the same angle.
@@ -67,12 +68,12 @@ Highlights include:
 				- Relathe
 					> Reconstructs a rotationally-symmetrical object with a new angular resolution.
 					> Cuts the object into a profile curve and rotates it at new intervals.
-					> Currently may cause inconsistent normals. Looking into it.
+					> Currently may cause inconsistent normals.
 				- Screw
 					> Operates much like the stack modifier.
 					> Currently only operates on Z axis.
 				- Wedge Ring
-					> I'll be honest, I forgot how this worked. Documentation to come later.
+					> Currently not working. Check back later.
 		- Utilities
 			- Proximity Select
 			- Sample Nearest Point
@@ -142,6 +143,8 @@ Highlights include:
 			- Vector Sum
 				> Signed scalar sum of vector components.
 		- Misc
+			- Voronoi 4D
+				> Periodic, customizable Voronoi texture
 			- UV Hack - Closest Pole
 	- Full easing nodes as defined by https://easings.net/
 		> The geometry node versions are prefixed with a capital G.
