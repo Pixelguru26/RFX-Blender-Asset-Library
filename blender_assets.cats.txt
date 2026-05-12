@@ -15,8 +15,8 @@ f0d0e9f8-714b-48bf-b602-f7c165c7d692:RFX-Blender-Asset-Library/GeoNodes/Primitiv
 c69f7455-021f-472f-aa34-60da11c16f26:RFX-Blender-Asset-Library/GeoNodes/Uncategorized:RFX-Blender-Asset-Library-GeoNodes-Uncategorized
 714f39d3-6ee6-4415-9131-51d6cab833cc:RFX-Blender-Asset-Library/Materials:RFX-Blender-Asset-Library-Materials
 8abbd188-2519-4e78-97f4-a11d1654531f:RFX-Blender-Asset-Library/Materials/Metals:RFX-Blender-Asset-Library-Materials-Metals
+9a1e3189-c4e5-4ecb-9ea8-e862fa705bd5:RFX-Blender-Asset-Library/Materials/NPR:RFX-Blender-Asset-Library-Materials-NPR
 5f93810d-a1e2-4f4e-b442-c063ede055ec:RFX-Blender-Asset-Library/Materials/Painted:RFX-Blender-Asset-Library-Materials-Painted
-9a1e3189-c4e5-4ecb-9ea8-e862fa705bd5:RFX-Blender-Asset-Library/Materials/SF:RFX-Blender-Asset-Library-Materials-SF
 0c0a137b-de1e-4731-9da4-d92bec67cf79:RFX-Blender-Asset-Library/Materials/Uncategorized:RFX-Blender-Asset-Library-Materials-Uncategorized
 9e8435b4-9424-4fa0-bd25-ceccfaac8d43:RFX-Blender-Asset-Library/Meshes:RFX-Blender-Asset-Library-Meshes
 2729c494-508d-458e-9f12-e2a1358ceb90:RFX-Blender-Asset-Library/Meshes/Greebles:RFX-Blender-Asset-Library-Meshes-Greebles
