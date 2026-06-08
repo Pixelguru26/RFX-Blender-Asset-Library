@@ -7,12 +7,13 @@
  Asset contributions are also accepted with the only caveat that submitting them grants permission to all users of this library now and in the future to do as they please with them, in the spirit of open collaboration. Attribution will be provided in this readme.
 
 Highlights include:
-- Tileable, customizable Voronoi texture
+- Tileable, customizable 4d Voronoi texture
 - Circular array modifier (see "Simple Angular Array")
 - Inset Faces geometry node implementation
 - Adjustable panels, bars, and greebles
 - Curve deformation modifier
 - Full set of easing nodes
+- Tons of math utils
 
 ### Contents
 - Nodes
@@ -73,10 +74,11 @@ Highlights include:
 					> Operates much like the stack modifier.
 					> Currently only operates on Z axis.
 				- Wedge Ring
-					> Currently not working. Check back later.
+					> Currently (still) not working. Check back later.
 		- Utilities
 			- Proximity Select
 			- Sample Nearest Point
+				> Convenience utility for sampling geometry values.
 			- To Global Coords
 				> Converts a coordinate vector to its global environment equivalent using transformation information about an object. WIP.
 			- Advanced Bounding Box
@@ -91,14 +93,15 @@ Highlights include:
 			- Project to Plane
 				> Projects a vector onto the plane of the specified normal vector.
 			- Mix 3
+				> Mixes between 3 values, either A at 0, B at 0.5, C at 1; or A at -1, B at 0, C at 1.
 			- Rectangle
 			- Triple Switch
 			- Triple Switch Vector
 			- Vector Coordinate System Transform
 			- Vector Select
 				> Selects a single component of a vector given an input of 0-2.
-			- Vector Swizzle
-				> Shuffles vector components.
+			- Vector Swizzle/Permute
+				> Shuffles vector components in an extremely compact form.
 		- Primitives
 			- Mesh Primitives
 				- Advanced Circle
@@ -142,10 +145,17 @@ Highlights include:
 			- Project to Plane
 			- Vector Sum
 				> Signed scalar sum of vector components.
+			- Vector Permute
+				> Compact utility for many types of vector component movements.
+			- Ramp Wave
+				> Combined ping-pong and map range.
+			- Boolean Operations
 		- Misc
 			- Voronoi 4D
 				> Periodic, customizable Voronoi texture
 			- UV Hack - Closest Pole
+			- Windmill Grid
+				> Provides a 2d grid of cells with a regular pattern of 90 degree rotations. Can aid in preventing texture repetition issues and is unreasonably tedious to manually rebuild.
 	- Full easing nodes as defined by https://easings.net/
 		> The geometry node versions are prefixed with a capital G.
 - Meshes
@@ -210,7 +220,7 @@ Highlights include:
 		- Cast bronze
 		- Beaten copper
 		- Cast Iron
-	- SF Collection
+	- NPR Collection
 		> A collection of fantasy and semi-realistic materials designed for visual appeal rather than realism.
 		> None of these require UV maps as of now.
 		- Black Rubber
@@ -236,5 +246,24 @@ Highlights include:
 			> WIP cheap concrete coated in paint, uses vertex colors.
 		- Simple Bars
 			> Simple crossed metal bars with normal maps and open spaces. Intended for use on low-poly meshes.
+- Textures
+	> All textures are made personally and 100% free of copyright or attribution requirements and AI. 99% free of artist tears.
+	- Icons
+	- Decals
+	- Normal Maps
+		- Knurling
+		- Chain Link Fence
+		- Sphere map
+			> For utility, especially as a sample source for drawing in external programs.
+		- Indents
+			> Good for scifi decals
+		- Bolts
+		- Corrugation
+	- Stock Photos
+		> Currently only a few simple photos for texturing. Stay tuned for tileable and disassembled versions.
+	- Textures
+		- Ripply
+		- Hex
+		- Circuitry
 
 Special thanks to @NinthDesertDude for assistance, direct contributions, and emotional support. ❤
