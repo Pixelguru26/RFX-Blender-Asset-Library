@@ -29,3 +29,7 @@ c69f7455-021f-472f-aa34-60da11c16f26:RFX-Blender-Asset-Library/GeoNodes/Uncatego
 b065dd40-71d6-45f4-9a39-24bfded3f50c:RFX-Blender-Asset-Library/Meshes/Structures:RFX-Blender-Asset-Library-Meshes-Structures
 e3c264d2-2dea-48e2-8e3d-b35d1fab26f7:RFX-Blender-Asset-Library/Shader Easing Nodes:RFX-Blender-Asset-Library-Shader Easing Nodes
 3c99dfe3-076e-46ad-aa90-f6e3592c7c94:RFX-Blender-Asset-Library/Shader Nodes:RFX-Blender-Asset-Library-Shader Nodes
+e40c91ab-19e6-4f33-b171-2ca050718587:RFX-Blender-Asset-Library/Shader Nodes/Other:RFX-Blender-Asset-Library-Shader Nodes-Other
+66ec2dc6-545f-433b-9ba9-a2f0756fec99:RFX-Blender-Asset-Library/Shader Nodes/SDF Utils:RFX-Blender-Asset-Library-Shader Nodes-SDF Utils
+4dfbbc4f-776f-499f-acbc-ee95df768ce3:RFX-Blender-Asset-Library/Shader Nodes/SDF Utils/Operators:RFX-Blender-Asset-Library-Shader Nodes-SDF Utils-Operators
+11f63b96-33f0-487d-bf8d-e1323c675f14:RFX-Blender-Asset-Library/Shader Nodes/SDF Utils/Primitives:RFX-Blender-Asset-Library-Shader Nodes-SDF Utils-Primitives
